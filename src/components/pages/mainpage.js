@@ -7,6 +7,7 @@ const styles = {
     width: "500px",
     marginLeft: "500px",
     marginRight: "2px",
+    
   },
   container: {
     margin: "9px",
@@ -18,7 +19,8 @@ const styles = {
     paddingTop: "0%",
   },
   heading: {
-    textAlign: "center",
+    textAlign: "right",
+    marginRight: "100px",
   },
   p: {
     textAlign: "center",
@@ -31,7 +33,7 @@ export default function Main() {
     <div className="auto">
       <div className="container1">
         <div style={styles.center} className="intro">
-          <h1 style={styles.heading}>HI, I'M RAMLA AHMED</h1>
+          <h1 style={styles.heading}>I'M RAMLA AHMED</h1>
           <div style={styles.center} className="flex-container">
             <img className="portraitimg" src={defaultImage} alt="default" />
           </div>
@@ -39,7 +41,7 @@ export default function Main() {
             {" "}
             I am an aspiring software web developer based in Birmingham, United
             Kingdom. I would consider myself as ambitious and dedicated
-            individual. I graduated in BA (Hons) Childhood studies then
+            individual. I graduated in BA (Hons) Childhood studies before i 
             transitioned into tech as a Full Stack Web Developer.
           </p>
         </div>

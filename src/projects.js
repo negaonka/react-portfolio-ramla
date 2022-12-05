@@ -40,7 +40,7 @@ const projects = [
     name: "Work Day Schedule",
     description: "In this project, i created an efficient calender app for scheduling an individuals work day.",
     image: require('./assets/workdayscheduler.png'),
-    github: 'https://ramlaahmed.github.io/workdayschedule/',
+    siteURL: 'https://ramlaahmed.github.io/workdayschedule/',
     github: "https://github.com/ramlaahmed/workdayschedule",
     technologiesUsed:["HTML",'CSS', 'MOMENT.JS', 'JavaScript','JQUERY']
    },
@@ -49,7 +49,7 @@ const projects = [
     name: "Note Taker",
     description: "In this project, i had to create an application called note taker that can be used to to write and save notes.",
     image: require('./assets/notetaker.png'),
-    github: 'https://evening-sierra-44458.herokuapp.com/',
+    siteURL: 'https://evening-sierra-44458.herokuapp.com/',
     github: "https://github.com/ramlaahmed/note-taker",
     technologiesUsed:["HTML",'CSS','JavaScript']
    },
