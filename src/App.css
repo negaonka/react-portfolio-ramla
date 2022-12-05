@@ -3,6 +3,15 @@
   background-color: lightgrey;
   color: white;
 }
+
+ li{
+  padding-left: 10%;
+  margin-left: 5%;
+
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
 .portraitimg{
   height: 300px;
   width: 300px;

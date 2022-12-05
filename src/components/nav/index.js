@@ -15,18 +15,19 @@ const styles = {
 
 export default function av({ currentPage, handlePageChange }) {
   return (
-    <nav style={styles.navStyle} className="flex-container space-around">
-      <ul>
-        <div>
-          <li
+    //<nav style={styles.navStyle} className="flex-container space-around">
+      <nav  className="d-flex justify-content-between flex-container space-around">
+      <ul className="d-flex justify-content-between w-75">
+        {/* <div> */}
+          <li 
             style={styles.linkStyle}
             onClick={() => handlePageChange("Home")}
             className={currentPage === "Home" ? "nav-active" : "nav-inactive"}
           >
             ABOUT ME
           </li>
-        </div>
-        <div>
+        {/* </div> */}
+        {/* <div> */}
           <li
             style={styles.linkStyle}
             onClick={() => handlePageChange("Portfolio")}
@@ -36,8 +37,8 @@ export default function av({ currentPage, handlePageChange }) {
           >
             MY PROJECT
           </li>
-        </div>
-        <div>
+        {/* </div> */}
+        {/* <div> */}
           <li
             style={styles.linkStyle}
             onClick={() => handlePageChange("Contact")}
@@ -47,8 +48,8 @@ export default function av({ currentPage, handlePageChange }) {
           >
             CONTACT
           </li>
-        </div>
-        <div>
+        {/* </div> */}
+        {/* <div> */}
           <li
             style={styles.linkStyle}
             onClick={() => handlePageChange("resume")}
@@ -56,7 +57,7 @@ export default function av({ currentPage, handlePageChange }) {
           >
             RESUME
           </li>
-        </div>
+        {/* </div> */}
       </ul>
     </nav>
   );
