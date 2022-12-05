@@ -1,11 +1,11 @@
 import React from "react";
 import Footer from "../footer";
-import defaultImage from "../defaultImage.jpeg";
+import defaultImage from "../../assets/defaultImage.jpeg";
 
 const styles = {
   img: {
-    width: "200px",
-    marginLeft: "auto",
+    width: "500px",
+    marginLeft: "500px",
     marginRight: "auto",
   },
   container: {
@@ -34,7 +34,7 @@ export default function Main() {
         <div style={styles.center}>
           <h1 style={styles.heading}>Hi, I'm Ramla Ahmed</h1>
           <div style={styles.center} className="flex-container">
-          <img style={styles.defaultImage} src={defaultImage} alt="default" />
+          <img style={styles.img} src={defaultImage} alt="default" />
           </div>
           <p style={styles.p}>
             {" "}

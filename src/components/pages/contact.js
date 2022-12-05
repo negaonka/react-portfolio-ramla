@@ -3,14 +3,14 @@ import React, { useState } from "react";
 
 const styles = {
   container: {
-    width: "50%",
+    width: "70%",
     marginTop: "5%",
   },
   form: {
-    marginLeft: "50%",
+    marginLeft: "20%",
     marginRight: "auto",
     paddingTop: "5%",
-    backgroundColor: "#648381",
+    backgroundColor: "grey",
     padding: "5%",
     width: '100%',
     borderRadius: "25px"
@@ -18,11 +18,11 @@ const styles = {
   },
   name: {
     border: "none",
-    borderBottom: "2px solid white",
+    borderBottom: "2px solid pink",
   },
   email: {
     border: "none",
-    borderBottom: "2px solid white",
+    borderBottom: "2px solid pink",
   },
   message: {
     width: "100%",

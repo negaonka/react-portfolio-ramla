@@ -1,7 +1,47 @@
 *{
   box-sizing: border-box;
-  background-color: grey;
-  color: white;
+  background-color: lightgrey;
+  color: black;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    } 
+
+.flex-end {
+  align-items: flex-end;
+        }
+    
+.nav-active {
+      text-decoration: underline;
+      text-decoration: border;
+      color: grey;
+    }
+    
+    .nav-inactive {
+      color: gray;
+      text-decoration: none;
+    
+      }
+.aboutMe, h1 {
+  margin-left: 40px;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.about-me p {
+  margin-left:  15px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 16px;
 }
 
 

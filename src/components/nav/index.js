@@ -5,12 +5,22 @@ const styles = {
   linkStyle: {
     fontSize: "1.2rem",
     textDecoration: "none",
+    button:"hover"
+
+    
       },
+  navStyle: {
+    display: "flex",
+    justifyContent: "space-around",
+    border:"block"
+    
+  }
+  
 };
 
 export default function Nav({ currentPage, handlePageChange }) {
   return (
-    <nav className="flex-container space-around">
+    <nav style ={styles.navStyle} className="flex-container space-around">
       <div>
         <a 
         style={styles.linkStyle}
