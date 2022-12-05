@@ -34,7 +34,7 @@ export default function Main() {
         <div style={styles.center}>
           <h1 style={styles.heading}>Hi, I'm Ramla Ahmed</h1>
           <div style={styles.center} className="flex-container">
-          <img style={styles.img} src={defaultImage} alt="default" />
+          <img  src={defaultImage} alt="default" />
           </div>
           <p style={styles.p}>
             {" "}

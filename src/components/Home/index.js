@@ -5,7 +5,7 @@ import Main from "../pages/mainpage";
 import projects from "../pages/projects";
 import Contact from "../pages/contact";
 import Footer from "../footer";
-
+//import resume from "../resume";
 
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -20,6 +20,7 @@ export default function PageContainer() {
     if (currentPage === "Contact") {
       return <Contact />;
     }
+   
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

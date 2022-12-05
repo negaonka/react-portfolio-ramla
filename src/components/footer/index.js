@@ -15,7 +15,7 @@ const styles = {
   footer: {
     position: "fixed",
     height: "50px",
-    bottom: "0",
+    bottom: "10",
     width: "100%",
   },
 };
