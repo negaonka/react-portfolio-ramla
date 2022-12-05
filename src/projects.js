@@ -55,7 +55,7 @@ const projects = [
    },
      {
         id: 7,
-        name: "Show me more",
+        name: "Show more..",
         description: "All of my other Projects",
         image:require('./assets/github.png') ,
         siteURL: "https://ramlaahmed.github.io/show-me-more/",
