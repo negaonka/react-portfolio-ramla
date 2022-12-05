@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Nav from "./nav";
-import Portfolio from "./pages/projects";
-import Main from "./pages/main";
-import projects from "./pages/projects";
-import Contact from "./pages/Contact";
-import Footer from "./footer";
+import Nav from "../nav";
+import Portfolio from "../pages/projects";
+import Main from "../pages/mainpage";
+import projects from "../pages/projects";
+import Contact from "../pages/contact";
+import Footer from "../footer";
 
 
 export default function PageContainer() {
