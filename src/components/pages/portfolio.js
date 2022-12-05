@@ -43,8 +43,13 @@ const styles = {
     paddingLeft: "5%",
     marginRight: "auto",
   },
+  cardContainer: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+},
   button: {
-    backgroundColor: "#648381",
+    backgroundColor: "pink",
     color: "white",
     boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
     textDecoration: "none",
@@ -52,14 +57,14 @@ const styles = {
     borderRadius: "10px",
     position: "absolute",
     bottom: 0,
-    marginBottom: "5%",
+    marginBottom: "2%",
   },
 };
 
 export default function Portfolio({ projects }) {
   return (
     <div style={styles.cards}>
-      <div>
+      <div style={styles.cardContainer}>
         {projects.map((project) => (
           <div key={project.id} className="card" style={styles.card}>
             <img src={project.image} alt="..." />
