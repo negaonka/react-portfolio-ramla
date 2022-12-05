@@ -13,20 +13,21 @@ export default function Nav({ currentPage, handlePageChange }) {
     <nav className="flex-container space-around">
       <div>
         <a 
+        style={styles.linkStyle}
          href="#home"
          onClick={() => handlePageChange("Home")}
          className={currentPage === "Home" ? "nav-active": "nav-inactive"}>
-          About me
+          ABOUT ME
         </a>
       </div>
       <div>
         <a
-          
-          href="#portfolio"
-          onClick={() => handlePageChange("Portfolio")}
-          className={currentPage === 'Portfolio' ? "nav-active": "nav-inactive"}
+          style={styles.linkStyle}
+          href="project"
+          onClick={() => handlePageChange("project")}
+          className={currentPage === 'project' ? "nav-active": "nav-inactive"}
         >
-          My projects
+         MY PROJECT
         </a>
       </div>
       <div>
@@ -36,7 +37,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-active": "nav-inactive"}
         >
-          Contact
+          CONTACT
         </a>
       </div>
       <div>
@@ -46,7 +47,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("skills")}
           className={currentPage === "skills" ? "nav-active": "nav-inactive"}
         >
-          My Skills
+          MY SKILLS
         </a>
       </div>
 
