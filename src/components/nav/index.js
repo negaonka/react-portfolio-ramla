@@ -53,11 +53,11 @@ export default function Nav({ currentPage, handlePageChange }) {
       <div>
         <a
           style={styles.linkStyle}
-          href="#skills"
-          onClick={() => handlePageChange("skills")}
-          className={currentPage === "skills" ? "nav-active": "nav-inactive"}
+          href="#resume"
+          onClick={() => handlePageChange("resume")}
+          className={currentPage === "resume" ? "nav-active": "nav-inactive"}
         >
-          MY SKILLS
+          RESUME
         </a>
       </div>
 

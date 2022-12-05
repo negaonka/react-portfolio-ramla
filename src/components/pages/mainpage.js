@@ -6,19 +6,20 @@ const styles = {
   img: {
     width: "500px",
     marginLeft: "500px",
-    marginRight: "auto",
+    marginRight: "2px",
   },
   container: {
-    margin: "auto",
-    width: "100%",
+    margin: "9px",
+    width: "5%",
   },
   center: {
-    marginLeft: "auto",
-    marginRight: "auto",
-    paddingTop: "5%",
+    marginLeft: "100px",
+    marginRight: "100px",
+    paddingTop: "0%",
   },
   heading: {
     textAlign: "center",
+
   },
   p: {
     textAlign: "center",
@@ -30,17 +31,16 @@ const styles = {
 export default function Main() {
   return (
     <div className="auto">
-      <div className="flex-container">
-        <div style={styles.center}>
-          <h1 style={styles.heading}>Hi, I'm Ramla Ahmed</h1>
+      <div className="container1">
+        <div style={styles.center} class="intro">
+          <h1 style={styles.heading}>HI, I'M RAMLA AHMED</h1>
           <div style={styles.center} className="flex-container">
-          <img  src={defaultImage} alt="default" />
+          <img className="portraitimg" src={defaultImage} alt="default" />
           </div>
           <p style={styles.p}>
             {" "}
             I am an aspiring software web developer based in Birmingham, United Kingdom. I would consider myself 
-as ambitious and dedicated individual. Before i started looking into web developer, I graduated in BA Childhood studies. I was closely working with 
-        children in Early years and children with special education needs and then transitioned into tech as a Full Stack Web Developer.
+as ambitious and dedicated individual. I graduated in BA (Hons) Childhood studies then transitioned into tech as a Full Stack Web Developer.
           </p>
         </div>
       </div>

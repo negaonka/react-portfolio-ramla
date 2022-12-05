@@ -10,19 +10,19 @@ const styles = {
     marginLeft: "20%",
     marginRight: "auto",
     paddingTop: "5%",
-    backgroundColor: "grey",
     padding: "5%",
     width: '100%',
-    borderRadius: "25px"
+    
 
   },
   name: {
     border: "none",
     borderBottom: "2px solid pink",
+ 
   },
   email: {
     border: "none",
-    borderBottom: "2px solid pink",
+    borderBottom: "1px solid pink",
   },
   message: {
     width: "100%",
@@ -33,8 +33,8 @@ const styles = {
   button: {
     marginTop: "5%",
     marginBottom: "5%",
-    borderRadius: "20px",
-    padding: "1% 2%"
+    borderRadius: "10px",
+    padding: "5%"
   },
 };
 
@@ -62,7 +62,7 @@ export default function Form() {
     e.preventDefault();
 
     if (!email || !name || !message) {
-      setErrorMessage("Please fill out all of the fields");
+      setErrorMessage("Please complete all of the fields");
       return;
     }
     setEmail("");
