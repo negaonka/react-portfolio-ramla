@@ -13,7 +13,7 @@ const styles = {
   },
 };
 
-export default function Nav({ currentPage, handlePageChange }) {
+export default function av({ currentPage, handlePageChange }) {
   return (
     <nav style={styles.navStyle} className="flex-container space-around">
       <ul>

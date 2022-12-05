@@ -8,16 +8,32 @@ const projects = [
         gitHub: "https://github.com/ramlaahmed/weather-dashboard",
         technologiesUsed:["HTML",'CSS', 'API', 'JavaScript']
     },
-
-   // {
-       // id: 5,
-       // name: "Show me more",
-      //  description: "A website that cuts out all the crap when trying to stalk actors from your favorite films. Just search the film and find that actors' key info. Powered by javascript",
+    {
+        id: 2,
+        name: "Coding Quiz",
+        description: "",
+        //image: require(''),
+        siteAddress: "https:/ramlaahmed.github.io/coding-quiz/",
+        gitHub: "https://github.com/ramlaahmed/coding-quiz",
+        technologiesUsed:["HTML",'CSS', 'API', 'JavaScript', 'Moment', 'Local Storage']
+    },
+    {
+        id:3,
+        name: "Employee Tracker",
+        description: "",
+        //image: require(''),
+        siteAddress: 'https://www.youtube.com/watch?v=O52OjCItHIU',
+        gitHub: "https://github.com/ramlaahmed/employee-tracker",
+        technologiesUsed:["HTML",'CSS', 'API', 'JavaScript']
+    },
+     {
+        id: 5,
+        name: "Show me more",
+        description: "All of my other Projects",
        // image:require('') ,
-      //  siteAddress: "https://jgray33.github.io/show-me-more/",
-      //  gitHub: "https://github.com/jgray33/show-me-more",
-     //   technologiesUsed:["HTML",'CSS', 'API', 'JavaScript']
-   // }
+        siteAddress: "https://ramlaahmed.github.io/show-me-more/",
+        gitHub: "https://github.com/ramlaahmed",
+   }
 ]
 
 export default projects
