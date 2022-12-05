@@ -1,6 +1,6 @@
-
 import React from "react";
-import Footer from "../Footer";
+import Footer from "../footer";
+import defaultImage from "../defaultImage.jpeg";
 
 const styles = {
   img: {
@@ -26,14 +26,15 @@ const styles = {
   },
 };
 
+
 export default function Main() {
   return (
     <div className="auto">
       <div className="flex-container">
         <div style={styles.center}>
-          <h1 style={styles.heading}>Hi my name is Ramla Ahmed</h1>
+          <h1 style={styles.heading}>Hi, I'm Ramla Ahmed</h1>
           <div style={styles.center} className="flex-container">
-            <img style={styles.img} src={myImage} alt="jg eating" />
+          <img style={styles.defaultImage} src={defaultImage} alt="default" />
           </div>
           <p style={styles.p}>
             {" "}
