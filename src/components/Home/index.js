@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import Nav from "../nav";
-import Portfolio from "../../projects";
+import Nav from "../Nav";
+import Portfolio from "../pages/portfolio";
 import Main from "../pages/mainpage";
 import projects from "../../projects";
 import Contact from "../pages/contact";
 import Footer from "../footer";
-
 
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -14,6 +13,7 @@ export default function PageContainer() {
     if (currentPage === "Home") {
       return <Main />;
     }
+    console.log(currentPage);
     if (currentPage === "Portfolio") {
       return <Portfolio projects={projects} />;
     }
@@ -28,7 +28,7 @@ export default function PageContainer() {
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <Footer/>
-      </div>
+      <Footer />
+    </div>
   );
 }

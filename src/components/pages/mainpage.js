@@ -19,7 +19,6 @@ const styles = {
   },
   heading: {
     textAlign: "center",
-
   },
   p: {
     textAlign: "center",
@@ -27,20 +26,21 @@ const styles = {
   },
 };
 
-
 export default function Main() {
   return (
     <div className="auto">
       <div className="container1">
-        <div style={styles.center} class="intro">
+        <div style={styles.center} className="intro">
           <h1 style={styles.heading}>HI, I'M RAMLA AHMED</h1>
           <div style={styles.center} className="flex-container">
-          <img className="portraitimg" src={defaultImage} alt="default" />
+            <img className="portraitimg" src={defaultImage} alt="default" />
           </div>
           <p style={styles.p}>
             {" "}
-            I am an aspiring software web developer based in Birmingham, United Kingdom. I would consider myself 
-as ambitious and dedicated individual. I graduated in BA (Hons) Childhood studies then transitioned into tech as a Full Stack Web Developer.
+            I am an aspiring software web developer based in Birmingham, United
+            Kingdom. I would consider myself as ambitious and dedicated
+            individual. I graduated in BA (Hons) Childhood studies then
+            transitioned into tech as a Full Stack Web Developer.
           </p>
         </div>
       </div>
