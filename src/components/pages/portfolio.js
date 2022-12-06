@@ -23,7 +23,7 @@ const styles = {
     
   },
   cardBody: {
-    alignSelf: "flex-start",
+    alignSelf: "flex-end",
   },
   image: {
     width: "100%",
