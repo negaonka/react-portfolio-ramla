@@ -20,10 +20,10 @@ const styles = {
     width: "18rem",
     height: "27rem",
     display: "flex",
-    width: "25%"
+    
   },
   cardBody: {
-    alignSelf: "flex-end",
+    alignSelf: "flex-start",
   },
   image: {
     width: "100%",

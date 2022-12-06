@@ -35,7 +35,7 @@ export default function av({ currentPage, handlePageChange }) {
               currentPage === "Portfolio" ? "nav-active" : "nav-inactive"
             }
           >
-            MY PROJECT
+            MY PROJECTS
           </li>
         {/* </div> */}
         {/* <div> */}
