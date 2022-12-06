@@ -1,4 +1,3 @@
-
 {
   "homepage:": "https://ramlaahmed.github.io/react-portfolio/",
   "name": "reactportfolio",
@@ -32,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -54,6 +53,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.2"
+    "gh-pages": "^3.2.3"
   }
 }

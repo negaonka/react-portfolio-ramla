@@ -4,8 +4,8 @@ import defaultImage from "../../assets/defaultImage.jpeg";
 
 const styles = {
   img: {
-    width: "500px",
-    marginLeft: "500px",
+    width: "20px",
+    marginLeft: "20px",
     marginRight: "2px",
     
   },
@@ -41,7 +41,7 @@ export default function Main() {
           <p style={styles.p}>
             {" "}
             I am an aspiring software web developer based in Birmingham, United
-            Kingdom. I would consider myself as ambitious and dedicated
+            Kingdom. I would consider myself as a ambitious and dedicated
             individual. I graduated in BA (Hons) Childhood studies before i 
             transitioned into tech as a Full Stack Web Developer.
           </p>
