@@ -31,16 +31,6 @@
   text-align: left;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-    } 
-
-.flex-end {
-  align-items: flex-end;
-        }
-
     
 .nav-active {
       text-decoration: underline;

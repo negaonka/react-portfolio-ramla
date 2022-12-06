@@ -26,6 +26,7 @@ const styles = {
     textAlign: "center",
     paddingTop: "3%",
   },
+  
 };
 
 export default function Main() {
