@@ -51,7 +51,7 @@ export default function av({ currentPage, handlePageChange }) {
         {/* </div> */}
         {/* <div> */}
           <li
-            style={styles.linkStyle}
+            style={styles.linkStyle} 
             onClick={() => handlePageChange("resume")}
             className={currentPage === "resume" ? "nav-active" : "nav-inactive"}
           >

@@ -36,10 +36,18 @@ const styles = {
     textDecoration: "none",
     padding: "10px",
     borderRadius: "8px",
-    position: "absolute",
-    bottom: 0,
-    marginBottom: "8%",
+    
   },
+
+  div: {
+    display: "flex",
+    justifyContent: "space-around",
+    border: "block",
+    marginBottom: "10px",
+    marginTop: "2px",
+    padding: "10px"
+
+  }
 };
 
 export default function Portfolio({ projects }) {
@@ -52,17 +60,21 @@ export default function Portfolio({ projects }) {
 <h5 className="card-title">{project.name}</h5>
  <img src={project.image} style= {styles.projectImage} alt="..." />
  <div className="card-body">
+ <p className="card-text">{project.description}</p>
+<div style={styles.div}>
 
-<p className="card-text">{project.description}</p>
- <div className="card-text">
-<a href={project.github} style={styles.button}>
-   Github Page
- </a>
 <div className="card-text">
-<a href={project.siteURL} style={styles.button}>
-  Web Link 
-</a>
-</div> </div>
+
+  <a href={project.github} style={styles.button}>
+    Github Page
+  </a>
+
+ 
+      <a href={project.siteURL} style={styles.button}>
+        Web Link 
+      </a>
+ 
+  </div> </div>
 </div>
  </div>
  ))}
