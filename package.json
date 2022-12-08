@@ -1,8 +1,8 @@
 {
-  "homepage:": "http://negaonka.github.io/react-portfolio-ramla",
   "name": "react-portfolio-ramla",
   "version": "0.1.0",
   "private": true,
+  "homepage:": "http://negaonka.github.io/react-portfolio-ramla",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
